@@ -1,6 +1,9 @@
 def is_greater_than_five(num):
   # Remove the `return None` code below and add your own code.
-  return None
+  if num > 5:
+      return True
+  else:
+      return False
 
 # -----------------------------------------------------------------------------
 

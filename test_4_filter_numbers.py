@@ -1,6 +1,17 @@
 def filter_numbers(arr):
   # Remove the `return None` code below and add your own code.
-  return None
+  i = 0
+  
+  while (i<len(arr)):
+    if arr[i]>=10:
+      arr.remove(arr[i])
+    else: 
+      i=i+1
+      
+  print arr
+  return arr
+ 
+
 
 # -----------------------------------------------------------------------------
 
